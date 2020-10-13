@@ -157,6 +157,96 @@ export default {
     //   ],
     // },
     {
+      id: 'src1',
+      name: 'src1',
+      levels: [
+        {
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
+        },
+        {
+          tileSize: 512,
+          size: 512,
+        },
+        {
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
+        {
+          tileSize: 512,
+          size: 4096,
+        },
+      ],
+      faceSize: 3328,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [
+        {
+          yaw: -3.098739506228693,
+          pitch: 0.19527091418435027,
+          rotation: 0,
+          target: 'src2',
+        },
+      ],
+      infoHotspots: [],
+    },
+    {
+      id: 'src2',
+      name: 'src2',
+      levels: [
+        {
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
+        },
+        {
+          tileSize: 512,
+          size: 512,
+        },
+        {
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
+        {
+          tileSize: 512,
+          size: 4096,
+        },
+      ],
+      faceSize: 3328,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [
+        {
+          yaw: 0.032364843751995664,
+          pitch: 0.18753502168973668,
+          rotation: 0,
+          target: 'src1',
+        },
+        // {
+        //   yaw: 0.843751995664,
+        //   pitch: -0.18753502168973668,
+        //   rotation: 0,
+        //   target: 'fort',
+        // },
+      ],
+      infoHotspots: [],
+    },
+    {
       id: 'fort',
       name: 'fortres',
       levels: [
@@ -190,6 +280,12 @@ export default {
           pitch: 0.41059539212140805,
           rotation: 6.283185307179586,
           target: 'restaurant',
+        },
+        {
+          yaw: 1.979696904675457,
+          pitch: 0.41059539212140805,
+          rotation: 6.283185307179586,
+          target: 'src1',
         },
       ],
       infoHotspots: [],

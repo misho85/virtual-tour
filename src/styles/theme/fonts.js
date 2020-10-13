@@ -17,7 +17,7 @@ const defaultFonts = `
   'Segoe UI Symbol'
 `;
 
-const heading = `'Poppins', ${defaultFonts}`;
-const body = `'Poppins', ${defaultFonts}`;
+const heading = `${defaultFonts}`;
+const body = `${defaultFonts}`;
 
 export default { heading, body };
